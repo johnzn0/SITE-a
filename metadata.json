@@ -1,0 +1,6 @@
+{
+  "name": "Aliar Proteção Veicular",
+  "description": "Portal oficial de proteção patrimonial mutualista da Aliar. Cotação rápida, assistência 24h nacional, área do associado, 2ª via de boleto e clube de benefícios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
