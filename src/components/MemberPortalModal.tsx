@@ -1,3 +1,4 @@
+// PROTÓTIPO: dados fictícios. Não publicar sem backend autenticado (LGPD).
 import React, { useState } from 'react';
 import { X, UserCheck, QrCode, Copy, Check, FileText, Download, ShieldCheck, Clock, ExternalLink } from 'lucide-react';
 

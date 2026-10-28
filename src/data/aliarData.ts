@@ -1,3 +1,6 @@
+// Official Aliar WhatsApp number (0800 711 3131)
+export const WHATSAPP_NUMBER = '558007113131';
+
 export interface VehiclePlan {
   id: string;
   name: string;

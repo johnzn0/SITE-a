@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { ChevronDown, MessageCircle, ShieldCheck, HeartHandshake, Users } from 'lucide-react';
 import { AliarOfficialLogo } from './components/AliarOfficialLogo';
+import { WHATSAPP_NUMBER } from './data/aliarData';
 
 export default function App() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
-  const contactPhoneNumber = '558007113131';
-  const whatsappUrl = `https://wa.me/${contactPhoneNumber}?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida.`;
+  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida.`;
 
   const faqs = [
     {

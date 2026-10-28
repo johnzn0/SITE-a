@@ -1,3 +1,4 @@
+// PROTÓTIPO: dados fictícios. Não publicar sem backend autenticado (LGPD).
 import React, { useState } from 'react';
 import { X, AlertTriangle, Truck, MapPin, PhoneCall, Check, Clock, Radio } from 'lucide-react';
 

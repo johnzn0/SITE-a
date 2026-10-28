@@ -1,6 +1,7 @@
+// PROTÓTIPO: dados fictícios. Não publicar sem backend autenticado (LGPD).
 import React, { useState } from 'react';
 import { Car, Bike, Truck, Check, AlertCircle, Send, Calculator, HelpCircle } from 'lucide-react';
-import { PLANS, VehiclePlan } from '../data/aliarData';
+import { PLANS, VehiclePlan, WHATSAPP_NUMBER } from '../data/aliarData';
 
 type VehicleCategory = 'passeio' | 'suv' | 'moto' | 'app';
 
@@ -74,7 +75,7 @@ export const QuoteSimulator: React.FC = () => {
       `• Cidade: ${clientCity}`
     );
     // WhatsApp direct link using Aliar typical format
-    window.open(`https://wa.me/5531999999999?text=${text}`, '_blank');
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, '_blank');
   };
 
   return (
